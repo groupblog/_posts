@@ -1,6 +1,7 @@
 title: Percolation Theory
 categories: project:princeton algorithms
 tags: union-find
+date: 2016-02-20
 ---
 
 ### Introduction

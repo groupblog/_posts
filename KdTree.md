@@ -1,6 +1,7 @@
 title: KdTree
 categories: project:princeton algorithms
 tags: Balanced Search Tree
+date: 2016-02-28
 ---
 
 ### Introduction

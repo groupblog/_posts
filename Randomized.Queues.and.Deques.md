@@ -1,6 +1,7 @@
 title: Randomized Queues and Deques
 categories: project:princeton algorithms
 tags: Queue
+date: 2016-02-22
 ---
 
 ### Introduction

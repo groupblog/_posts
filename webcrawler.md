@@ -1,11 +1,13 @@
 title: Web Crawler
-tags: Python
-category: Project
-description: Web Crawler is a metasearch engine that blends the top search results. For this project, I wrote a web crawler by using Python, which can give us an order list of URLs of pages.
+tags: web crawler
+categories: project:Intro to Computer Science
+date: 2016-03-01
 ---
 
 ### Introduction
 > <font size=2><p>A <strong>Web crawler</strong> starts with a list of URLs to visit, called the seeds. As the crawler visits these URLs, it identifies all the hyperlinks in the page and adds them to the list of URLs to visit, called the crawl frontier. URLs from the frontier are recursively visited according to a set of policies. If the crawler is performing archiving of websites it copies and saves the information as it goes. The archives are usually stored in such a way they can be viewed, read and navigated as they were on the live web, but are preserved as ‘snapshots'.- [wikipedia](https://en.wikipedia.org/wiki/Web_crawler)</p></font>
+
+<!--more-->
 
 <p>We can start from one seed page to search all the URLs with finite depth that we can get, then rank them in order, and give us the best choose or a rank list. And this is what the project does.
 </p>
