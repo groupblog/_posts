@@ -3,7 +3,9 @@ categories: project:princeton algorithms
 tags: Queue
 date: 2016-02-22
 ---
-
+<figure>
+   <img src="/images/queue_deque.png">
+</figure>
 ### Introduction
 > <font size=2>In computer science, a queue is a particular kind of abstract data type or collection in which the entities in the collection are kept in order and the principal (or only) operations on the collection are the addition of entities to the rear terminal position, known as enqueue, and removal of entities from the front terminal position, known as dequeue. - [wikipedia][1]</font>
 [1]: https://en.wikipedia.org/wiki/Queue_(abstract_data_type)

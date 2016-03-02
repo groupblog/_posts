@@ -3,7 +3,9 @@ categories: project:princeton algorithms
 tags: Balanced Search Tree
 date: 2016-02-28
 ---
-
+<figure class="half">
+   <img src="/images/kdtree.png">
+</figure>
 ### Introduction
 > <font size=2>The k-d tree is a binary tree in which every node is a k-dimensional point. Every non-leaf node can be thought of as implicitly generating a splitting hyperplane that divides the space into two parts, known as half-spaces. Points to the left of this hyperplane are represented by the left subtree of that node and points right of the hyperplane are represented by the right subtree. - [wikipedia](https://en.wikipedia.org/wiki/K-d_tree)</font>
 

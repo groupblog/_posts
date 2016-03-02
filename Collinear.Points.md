@@ -3,7 +3,7 @@ categories: project:princeton algorithms
 tags: sorting
 date: 2016-02-24
 ---
-
+![](/images/pattern recognition.png)
 ### Introduction
 > <font size=2>A sorting algorithm is an algorithm that puts elements of a list in a certain order. The most-used orders are numerical order and lexicographical order. More formally, the output must satisfy two conditions:  
 1. The output is in nondecreasing order (each element is no smaller than the previous element according to the desired total order);  
