@@ -1,5 +1,7 @@
 title: Collinear Points
-categories: project:princeton algorithms
+categories: 
+    - project
+    - princeton algorithms
 tags: sorting
 date: 2016-02-24
 ---

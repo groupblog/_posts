@@ -1,6 +1,8 @@
 title: Web Crawler
 tags: web crawler
-categories: project:Intro to Computer Science
+categories: 
+    - project
+    - Intro to Computer Science
 date: 2016-03-01
 ---
 ![](/images/web crawler.png)

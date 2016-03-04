@@ -1,9 +1,11 @@
 title: Percolation Theory
-categories: project:princeton algorithms
+categories: 
+    - project
+    - princeton algorithms
 tags: union-find
 date: 2016-02-20
 ---
-![](/images/percolation.png)
+<img src="/images/percolation.png">
 ### Introduction
 > <font size=2>In statistical physics and mathematics, percolation theory describes the behavior of connected clusters in a random graph. The applications of percolation theory to materials science and other domains are discussed in the article percolation. - [wikipedia](https://en.wikipedia.org/wiki/Percolation_theory)</font>
 
