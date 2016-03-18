@@ -6,7 +6,7 @@ tags: [Dictionary,List,Recursion]
 date: 2016-03-10
 ---
 <figure>
-    <img src="/images/gaming_social_network.png">
+    <img src="/images/gaming_social_network.jpg">
 </figure>
 ### Introduction
 > <font size=2>A social network game is a type of online game that is played through social networks, and typically features multiplayer and asynchronous gameplay mechanics. - [wikipedia](https://en.wikipedia.org/wiki/Social_network_game)</font>
