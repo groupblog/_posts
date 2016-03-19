@@ -31,6 +31,7 @@ Implement a TODO list web application with the following functionality:
 - A search bar is provided, so that the user is able to search for a particular TODO item
 Bonus Functionality
 The user is only presented with the option to delete a TODO item when they are hovering the mouse over that item
+
 ----
 
 ### Demo Display
