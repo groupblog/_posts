@@ -1,11 +1,12 @@
 title: To Do List
 categories:
     - project
-tags: [Angular.js]
+    - web
+tags: [Angular.js, JavaScript, html, Bootstrp]
 date: 2016-03-19
 ---
 <figure>
-    <img src="https://farm2.staticflickr.com/1604/25284321663_f4c97b9a5e_o.jpg" width="863" height="430" alt="angular_bootstrap">
+    <img src="https://farm2.staticflickr.com/1604/25284321663_f4c97b9a5e_o.jpg" width="863" height="430">
 </figure>
 
 
@@ -34,10 +35,10 @@ The user is only presented with the option to delete a TODO item when they are h
 ### Demo Display
 
 <p>Initial page:
-<img src="https://farm2.staticflickr.com/1650/25601037730_045a9369af_o.png" width="1666" height="1042" alt="todolist1">
+<img src="https://farm2.staticflickr.com/1650/25601037730_045a9369af_o.png" width="1666" height="1042">
 </p>
 <p>After add tasks and do search:
-<img src="https://farm2.staticflickr.com/1536/25268890654_5310af6234_o.png" width="1625" height="1630" alt="todolist2">
+<img src="https://farm2.staticflickr.com/1536/25268890654_5310af6234_o.png" width="1625" height="1630">
 </p>
 
 - [github code link](https://github.com/zhaot777/angularjs_todolist.git)
