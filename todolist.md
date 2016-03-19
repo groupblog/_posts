@@ -32,6 +32,10 @@ Implement a TODO list web application with the following functionality:
 Bonus Functionality
 The user is only presented with the option to delete a TODO item when they are hovering the mouse over that item
 
+> **Note:**
+>  1. To fit the requirement, we can use 2 panels, one is for search tasks and another one is for add tasks.
+>  2. For add, completed and delete, we can use controller to change the status of data's item. For searching item, we can create a filter, when click the search button, show the filtered data.
+
 ----
 
 ### Demo Display
@@ -42,6 +46,9 @@ The user is only presented with the option to delete a TODO item when they are h
 <p>After add tasks and do search:
 <img src="https://farm2.staticflickr.com/1536/25268890654_5310af6234_o.png" width="1625" height="1630">
 </p>
+
+
+
 
 - [github code link](https://github.com/zhaot777/angularjs_todolist.git)
 
