@@ -33,12 +33,12 @@ The user is only presented with the option to delete a TODO item when they are h
 
 ### Demo Display
 
-Initial page:
-<img src="https://farm2.staticflickr.com/1650/25601037730_c0af2e68a8_z.jpg" width="640" height="400" alt="todolist1">
-
-After add tasks and do search:
-<img src="https://farm2.staticflickr.com/1536/25268890654_4815dfc933_z.jpg" width="638" height="640" alt="todolist2">
-
+<p>Initial page:
+<img src="https://farm2.staticflickr.com/1650/25601037730_045a9369af_o.png" width="1666" height="1042" alt="todolist1">
+</p>
+<p>After add tasks and do search:
+<img src="https://farm2.staticflickr.com/1536/25268890654_5310af6234_o.png" width="1625" height="1630" alt="todolist2">
+</p>
 
 - [github code link](https://github.com/zhaot777/angularjs_todolist.git)
 
