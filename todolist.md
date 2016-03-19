@@ -33,8 +33,8 @@ Bonus Functionality
 The user is only presented with the option to delete a TODO item when they are hovering the mouse over that item
 
 > **Note:**
->  1. To fit the requirement, we can use 2 panels, one is for search tasks and another one is for add tasks.
->  2. For add, completed and delete, we can use controller to change the status of data's item. For searching item, we can create a filter, when click the search button, show the filtered data.
+>  1. To fit the requirement, we can use 2 panels, one for searching tasks and another one for adding tasks.
+>  2. For add, completed and delete, we can use controller to change the status of item in our data. For searching item, we can create a filter, when click the search button, show the filtered data.
 
 ----
 
