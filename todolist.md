@@ -11,9 +11,9 @@ date: 2016-03-19
 
 ### Introduction
 <p><strong>AngularJS</strong> is an open-sourced web application JavaScript framework designed for Single Page Applications (SPA). An SPA is a web application or website that fits into a single web page. It is a design choice intended to provide a more fluid user experience. Angular’s data binding and dependency injection make your application’s components clear and succinct. If you are building a game or a computationally intensive math application, Angular may not fit your particular requirements, however, for generic web applications it should serve as a viable framework to build upon.</p>
-
-<p><strong>Bootstrap</strong> is a free front-end framework for faster and easier web development. It includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins. Bootstrap also gives you the ability to easily create responsive designs</p>
 <!--more-->
+<p><strong>Bootstrap</strong> is a free front-end framework for faster and easier web development. It includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins. Bootstrap also gives you the ability to easily create responsive designs</p>
+
 ----
 
 ### Instructions
@@ -34,7 +34,9 @@ The user is only presented with the option to delete a TODO item when they are h
 
 > **Note:**
 >  1. To fit the requirement, we can use 2 panels, one for searching tasks and another one for adding tasks.
->  2. For add, completed and delete, we can use controller to change the status of item in our data. For searching item, we can create a filter, when click the search button, show the filtered data.
+>  2. For add, completed and delete, we can use controller to change the status of item in our data. 
+>  3. For searching item, we can create a filter, when click the search button, show the filtered data.
+>  4. The tricky part is to synchronized the search list and data list, when we click the delete button in either of this list, we need to delete the the same item in another list.
 
 ----
 
