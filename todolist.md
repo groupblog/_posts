@@ -1,7 +1,6 @@
 title: To Do List
 categories:
     - project
-    - princeton algorithms
 tags: [Angular.js]
 date: 2016-03-19
 ---
