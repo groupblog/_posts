@@ -14,8 +14,7 @@ date: 2016-03-19
 <!--more-->
 <p><strong>Bootstrap</strong> is a free front-end framework for faster and easier web development. It includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins. Bootstrap also gives you the ability to easily create responsive designs</p>
 
-----
-
+---
 ### Instructions
 
 Implement a TODO list web application with the following functionality:
@@ -38,8 +37,7 @@ The user is only presented with the option to delete a TODO item when they are h
 >  3. For searching item, we can create a filter, when click the search button, show the filtered data.
 >  4. The tricky part is to synchronized the search list and data list, when we click the delete button in either of this list, we need to delete the the same item in another list.
 
-----
-
+---
 ### Demo Display
 
 <p>Initial page:
@@ -48,9 +46,6 @@ The user is only presented with the option to delete a TODO item when they are h
 <p>After add tasks and do search:
 <img src="https://farm2.staticflickr.com/1536/25268890654_5310af6234_o.png" width="1625" height="1630">
 </p>
-
-
-
 
 - [github code link](https://github.com/zhaot777/angularjs_todolist.git)
 
