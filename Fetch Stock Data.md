@@ -1,6 +1,6 @@
 title: Fetch Stock Data
 categories:
-    - project
+    - Project
     - Web Develop
 tags: [PHP, XML, JSON]
 date: 2016-03-11

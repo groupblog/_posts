@@ -1,13 +1,11 @@
 title: Gaming Social Network
 categories: 
-    - project
+    - Project
     - Intro to Computer Science
 tags: [Dictionary,List,Recursion]
 date: 2016-03-10
 ---
-<figure>
-    <img src="/images/gaming_social_network.jpg">
-</figure>
+<img src="https://farm2.staticflickr.com/1647/25913549645_4dadc3365c_h.jpg" width="640" height="360">
 ### Introduction
 > <font size=2>A social network game is a type of online game that is played through social networks, and typically features multiplayer and asynchronous gameplay mechanics. - [wikipedia](https://en.wikipedia.org/wiki/Social_network_game)</font>
 

@@ -1,13 +1,11 @@
 title: Digital image processing
 categories: 
-    - project
-    - berkeley cs61b
-tags: linked list
+    - Project
+    - Berkeley Cs61b
+tags: [List, LinkedList]
 date: 2016-03-14
 ---
-<figure>
-    <img src="/images/image blur.png">
-</figure>
+<img src="https://farm2.staticflickr.com/1648/25818617691_54a9f37859_m.jpg" width="770" height="381">
 ### Introduction
 > <font size=2>Image processing is a method to perform some operations on an image, in order to get an enhanced image or to extract some useful information from it. It is a type of signal processing in which input is an image and output may be image or characteristics/features associated with that image. - [digital image processing](https://sisu.ut.ee/imageprocessing/book/1)</font>
 

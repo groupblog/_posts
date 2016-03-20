@@ -1,13 +1,11 @@
 title: Web Crawler
-tags: web crawler
+tags: Web Crawler
 categories: 
-    - project
+    - Project
     - Intro to Computer Science
 date: 2016-03-01
 ---
-<figure class="half">
-   <img src="/images/web.crawler.png">
-</figure>
+<img src="https://farm2.staticflickr.com/1578/25818614831_f12e203c12.jpg" width="261" height="250">
 ### Introduction
 > <font size=2><p>A <strong>Web crawler</strong> starts with a list of URLs to visit, called the seeds. As the crawler visits these URLs, it identifies all the hyperlinks in the page and adds them to the list of URLs to visit, called the crawl frontier. URLs from the frontier are recursively visited according to a set of policies. If the crawler is performing archiving of websites it copies and saves the information as it goes. The archives are usually stored in such a way they can be viewed, read and navigated as they were on the live web, but are preserved as ‘snapshots'.- [wikipedia](https://en.wikipedia.org/wiki/Web_crawler)</p></font>
 

@@ -1,8 +1,8 @@
 title: To Do List
 categories:
-    - project
-    - web
-tags: [Angular.js, JavaScript, html, Bootstrap]
+    - Project
+    - Web Develop
+tags: [Angular.js, JavaScript, HTML, Bootstrap, JSON]
 date: 2016-03-19
 ---
 <figure>

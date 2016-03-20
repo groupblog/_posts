@@ -1,13 +1,11 @@
 title: Randomized Queues and Deques
 categories: 
-    - project
-    - princeton algorithms
+    - Project
+    - Princeton Algorithms
 tags: Queue
 date: 2016-02-22
 ---
-<figure>
-   <img src="/images/queue_deque.png">
-</figure>
+<img src="https://farm2.staticflickr.com/1716/25887663206_a2fca2f1e7.jpg" width="617" height="208">
 ### Introduction
 > <font size=2>In computer science, a queue is a particular kind of abstract data type or collection in which the entities in the collection are kept in order and the principal (or only) operations on the collection are the addition of entities to the rear terminal position, known as enqueue, and removal of entities from the front terminal position, known as dequeue. - [wikipedia][1]</font>
 [1]: https://en.wikipedia.org/wiki/Queue_(abstract_data_type)

@@ -1,7 +1,7 @@
 title: Slow and Fast Pointers
 categories:
     - LeetCode
-tags: [LinkedList, List]
+tags: [List, LinkedList]
 date: 2016-03-19
 ---
 ![](https://farm2.staticflickr.com/1694/25922739775_553ece5c1f_z.jpg)
