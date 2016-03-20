@@ -7,12 +7,12 @@ date: 2016-03-11
 ---
 ![](https://farm2.staticflickr.com/1501/25827795981_835ee7fb4b_z.jpg)
 
-# Introduction
+### Introduction
 In this project, I create a webpage used to search stock information with the help of Markit on Demand APIs, and the search results will be displayed in tabular format. After getting the search list, users can click the more information link to get more details stock information about the company.  In this project, I used the PHP programming language to deal with the POST method to realize the search function, then I use the GET method to get the detail information. In both method I get XML file through Markit on Demand. I also use the formation function of PHP to show the data readable.
 <!-- more -->
 ----
 
-# Get Search Data from Markit on Demand
+### Get Search Data from Markit on Demand
 I build form including a search input and submit button. When user input their search query and click the submit button, it will apply the POST method and get the input value as the search query which is stored in a variable $company.
 
 ``` php
@@ -45,7 +45,7 @@ function getresult($company) {
 }
 ?>
 ```
-# Get Detailed Information from Markit on Demand
+### Get Detailed Information from Markit on Demand
 
 After the search of a query, we get a result table which include more information link at the end of each row. We can click it to get more information where I use the GET method the submit it. In this times we use the http://dev.markitondemand.com/MODApis/Api/v2/Quote/json?symbol= and $symbol to get the JSON file. After this we can use the PHP’s JSON parse to get the stock information into the table. Because the information in JSON is not readable for person, we should use some information to transfer the JSON data. For example, we can transfer JSON’s timestamp, Fri Mar 18 00:00:00 UTC-04:00 2016,into a readable data, 2016-03-18 7:59 PM UTC,  by `date("Y-m-d g:i A T", strtotime($more_info->{'Timestamp'}))`.
 
