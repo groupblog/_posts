@@ -2,7 +2,7 @@ title: Fetch Stock Data
 categories:
     - project
     - Web Develop
-tags: [PHP, XML, JSON, FORM]
+tags: [PHP, XML, JSON]
 date: 2016-03-11
 ---
 ![](https://farm2.staticflickr.com/1501/25827795981_835ee7fb4b_z.jpg)
