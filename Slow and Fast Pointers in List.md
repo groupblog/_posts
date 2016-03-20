@@ -4,7 +4,8 @@ categories:
 tags: [LinkedList]
 date: 2016-03-19
 ---
-![](/images/slow-fast-middle.png)
+![](https://farm2.staticflickr.com/1694/25922739775_553ece5c1f_z.jpg)
+
 # Introduction
 When dealing with list data structure, we can’t get the middle item as the array using index of the item. Normally, we can traverse the list to get the length of the list, N. Then we traverse the list again stopping at N/2. It makes us to traverse the list two time. Actually, with the help of the two pointers, we can find the middle item traversing once.
 <!--more-->
@@ -24,8 +25,8 @@ while(fast != null && fast.next != null) {
 
 # Find the Existence of Cycle in a List
 Slow and fast pointers also can be used in finding the existence of cycle in a List. Firstly, the slow and faster pointers are at the beginning of the list. Based on the character of two pointers, the fast pointer must move into the cycle before the slow pointer. Then the slow pointer enter into the cycle. The faster pointer will meet the slow point due to the difference of their speeds. The detail is shown by following pictures.
-![](/images/slow-fast-cycle1.png)
-![](/images/slow-fast-cycle2.png)
+![](https://farm2.staticflickr.com/1550/25922739785_d7bdfd99ef_z.jpg)
+![](https://farm2.staticflickr.com/1556/25922739795_448152ea9d_z.jpg)
 
 ``` java
     public boolean hasCycle(ListNode head) {
