@@ -2,7 +2,7 @@ title: To Do List
 categories:
     - project
     - web
-tags: [Angular.js, JavaScript, html, Bootstrp]
+tags: [Angular.js, JavaScript, html, Bootstrap]
 date: 2016-03-19
 ---
 <figure>
