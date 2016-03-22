@@ -9,6 +9,8 @@ date: 2016-03-21
 
 ### Introduction
 Tree data structure is applied generally during programming such as sorting and searching. Tree data structure even can be used in dealing with string such as prefix tree. However, we sometimes get the data is not stored as a tree, so it is normally to for us to transfer other data structures into a tree so as to handle the problem more effectively. In this article, we would talk about how transfer the sorted array and sorted list to the balanced binary search tree. Besides, we can transfer two arrays, gotten by traversing inorder and preorder or postorder. We also can build a tree from a string, where the values are split by ‘,’ and the null node is marked as ‘#’. However, we can build a tree form various data structure, which is an essential methods in algorithms.
+<!--more-->
+---
 
 ### Build Tree from Sorted Array and Sorted List
 #### Build Tree form Sorted Array
