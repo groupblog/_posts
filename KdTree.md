@@ -1,8 +1,8 @@
 title: KdTree
-categories:
+categories: 
     - Project
     - Princeton Algorithms
-tags: Balanced Search Tree
+tags: [Tree, Binary Search Tree, Balanced Search Tree]
 date: 2016-02-28
 ---
 <img src="https://farm2.staticflickr.com/1638/25284856443_8862b317c4_m.jpg" width="145" height="143">
@@ -35,16 +35,16 @@ For this project, we usc both red-black BST and 2d-tree to represent a set of po
 The goal of this project is to implement class for red-black BST and 2d-tree. Both of them have the below interfaces.
 ```java
 public class PointSET {
-   public         PointSET()                               // construct an empty set of points
-   public           boolean isEmpty()                      // is the set empty?
-   public               int size()                         // number of points in the set
+   public         PointSET()                               // construct an empty set of points 
+   public           boolean isEmpty()                      // is the set empty? 
+   public               int size()                         // number of points in the set 
    public              void insert(Point2D p)              // add the point to the set (if it is not already in the set)
-   public           boolean contains(Point2D p)            // does the set contain point p?
-   public              void draw()                         // draw all points to standard draw
-   public Iterable<Point2D> range(RectHV rect)             // all points that are inside the rectangle
-   public           Point2D nearest(Point2D p)             // a nearest neighbor in the set to point p; null if the set is empty
+   public           boolean contains(Point2D p)            // does the set contain point p? 
+   public              void draw()                         // draw all points to standard draw 
+   public Iterable<Point2D> range(RectHV rect)             // all points that are inside the rectangle 
+   public           Point2D nearest(Point2D p)             // a nearest neighbor in the set to point p; null if the set is empty 
 
-   public static void main(String[] args)                  // unit testing of the methods (optional)
+   public static void main(String[] args)                  // unit testing of the methods (optional) 
 }
 ```
 
@@ -52,30 +52,30 @@ This class will use two predefined classes named Point2D and RectHV. Below are t
 ```java
 public class Point2D implements Comparable<Point2D> {
    public Point2D(double x, double y)              // construct the point (x, y)
-   public  double x()                              // x-coordinate
-   public  double y()                              // y-coordinate
-   public  double distanceTo(Point2D that)         // Euclidean distance between two points
-   public  double distanceSquaredTo(Point2D that)  // square of Euclidean distance between two points
-   public     int compareTo(Point2D that)          // for use in an ordered symbol table
-   public boolean equals(Object that)              // does this point equal that object?
-   public    void draw()                           // draw to standard draw
-   public  String toString()                       // string representation
+   public  double x()                              // x-coordinate 
+   public  double y()                              // y-coordinate 
+   public  double distanceTo(Point2D that)         // Euclidean distance between two points 
+   public  double distanceSquaredTo(Point2D that)  // square of Euclidean distance between two points 
+   public     int compareTo(Point2D that)          // for use in an ordered symbol table 
+   public boolean equals(Object that)              // does this point equal that object? 
+   public    void draw()                           // draw to standard draw 
+   public  String toString()                       // string representation 
 }
 
 public class RectHV {
-   public    RectHV(double xmin, double ymin,      // construct the rectangle [xmin, xmax] x [ymin, ymax]
+   public    RectHV(double xmin, double ymin,      // construct the rectangle [xmin, xmax] x [ymin, ymax] 
                     double xmax, double ymax)      // throw a java.lang.IllegalArgumentException if (xmin > xmax) or (ymin > ymax)
-   public  double xmin()                           // minimum x-coordinate of rectangle
-   public  double ymin()                           // minimum y-coordinate of rectangle
-   public  double xmax()                           // maximum x-coordinate of rectangle
-   public  double ymax()                           // maximum y-coordinate of rectangle
-   public boolean contains(Point2D p)              // does this rectangle contain the point p (either inside or on boundary)?
-   public boolean intersects(RectHV that)          // does this rectangle intersect that rectangle (at one or more points)?
-   public  double distanceTo(Point2D p)            // Euclidean distance from point p to closest point in rectangle
-   public  double distanceSquaredTo(Point2D p)     // square of Euclidean distance from point p to closest point in rectangle
-   public boolean equals(Object that)              // does this rectangle equal that object?
-   public    void draw()                           // draw to standard draw
-   public  String toString()                       // string representation
+   public  double xmin()                           // minimum x-coordinate of rectangle 
+   public  double ymin()                           // minimum y-coordinate of rectangle 
+   public  double xmax()                           // maximum x-coordinate of rectangle 
+   public  double ymax()                           // maximum y-coordinate of rectangle 
+   public boolean contains(Point2D p)              // does this rectangle contain the point p (either inside or on boundary)? 
+   public boolean intersects(RectHV that)          // does this rectangle intersect that rectangle (at one or more points)? 
+   public  double distanceTo(Point2D p)            // Euclidean distance from point p to closest point in rectangle 
+   public  double distanceSquaredTo(Point2D p)     // square of Euclidean distance from point p to closest point in rectangle 
+   public boolean equals(Object that)              // does this rectangle equal that object? 
+   public    void draw()                           // draw to standard draw 
+   public  String toString()                       // string representation 
 }
 ```
 
