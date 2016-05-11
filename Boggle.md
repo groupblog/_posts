@@ -29,7 +29,7 @@ A common application of a trie is storing a predictive text or autocomplete dict
 |<font size=1>  TST </font> |<font size=1>  L+lnN  </font>|<font size=1>  lnN  </font>|<font size=1>  L+lnN  </font>|<font size=1>  4N  </font>|
 
 
-<font size=1>**different implementation about augmentation path**</font>
+<font size=1>**different implementation about symbol-table**</font>
 
 
 ---
