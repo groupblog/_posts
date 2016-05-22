@@ -3,9 +3,13 @@ tags: [OS, virtual memory]
 categories: 
 	-Operating Systems
 date: 2016-05-21
-description: This is a review of memory management, and focus on virtual address concept, different ways of memory management, TLB, shadow object, backing store issues.
 ---
 
+## Introduction
+
+This is a review of memory management, and focus on virtual address concept, different ways of memory management, TLB, shadow object, backing store issues.
+<!--more-->
+----
 
 ## Virtual Memory Basic
 
@@ -143,5 +147,3 @@ description: This is a review of memory management, and focus on virtual address
 	- radical-liberal approach: lazy evaluation, backing-store space is allocated only when needed.
 
 
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<div class="addthis_sharing_toolbox"></div>
