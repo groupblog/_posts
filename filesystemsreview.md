@@ -1,6 +1,8 @@
-title: File Systems Review
-tags: OS
-category: Operating Systems
+title: File Systems
+tags: [OS, file systems]
+categories: 
+	-Operating Systems
+date: 2016-05-21
 description: This is a review of file systems, and focus on S5FS, multiple disks, flash memory, crash Resiliency, naming and dirctories.
 ---
 
