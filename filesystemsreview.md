@@ -11,7 +11,7 @@ date: 2016-05-21
 - The requirements of file systems:
 	- Permanent storage
 	- Quick, easy and efficient
-	- 
+
 <!--more-->
 ----
 
