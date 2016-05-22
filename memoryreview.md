@@ -1,4 +1,4 @@
-title: Memory Management Review
+title: Memory Management
 tags: [OS, virtual memory]
 categories: 
 	-Operating Systems
