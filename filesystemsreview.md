@@ -3,14 +3,17 @@ tags: [OS, file systems]
 categories: 
 	-Operating Systems
 date: 2016-05-21
-description: This is a review of file systems, and focus on S5FS, multiple disks, flash memory, crash Resiliency, naming and dirctories.
 ---
 
 ### Introduction
-The requirements of file systems:
-	
-- Permanent storage
-- Quick, easy and efficient
+
+- This is a review of file systems, and focus on S5FS, multiple disks, flash memory, crash Resiliency, naming and dirctories.
+- The requirements of file systems:
+	- Permanent storage
+	- Quick, easy and efficient
+	- 
+<!--more-->
+----
 
 ### The Basics of File Systems
 
@@ -158,5 +161,4 @@ This is a review of file systems, and focus on S5FS, multiple disks, flash memor
 
 <img src="https://farm8.staticflickr.com/7240/26387779154_5758d2a7f6_b.jpg" width="450" height="280" alt="file_system_summary">
 
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<div class="addthis_sharing_toolbox"></div>
+
