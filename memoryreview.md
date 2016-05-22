@@ -1,6 +1,8 @@
 title: Memory Management Review
-tags: OS, virtual memory
-category: Operating Systems
+tags: [OS, virtual memory]
+categories: 
+	-Operating Systems
+date: 2016-05-21
 description: This is a review of memory management, and focus on virtual address concept, different ways of memory management, TLB, shadow object, backing store issues.
 ---
 
