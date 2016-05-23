@@ -1,4 +1,4 @@
-title: multithreaded programming
+title: Multithreaded Programming
 categories: 
     - Studying notes
     - Operating System
