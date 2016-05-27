@@ -1,6 +1,6 @@
 title: File Systems
 tags: [OS, file systems]
-categories: 
+categories:
 	-Operating Systems
 date: 2016-05-21
 ---
@@ -61,21 +61,21 @@ Rhinopias's S5SF have very low effective transfer speed. We need to improve acce
 - Minimizing Latency
 	- Block interleaving
 - Log-Structured File System (LFS)
-	
+
 	<img src="https://farm8.staticflickr.com/7040/26388472283_d457c0580f_b.jpg" width="400" height="100" alt="LFS">
 
 	- Main principles: nerver delete, append only.
-	- Inode Map: keep the updated inode, and each inode map piece is appended to log. 
+	- Inode Map: keep the updated inode, and each inode map piece is appended to log.
 	- Use checkpoint file (can have previous and current version) which is not belong to log to keeps track of all inode map pieces.
 
 
 ### Multiple Disks
-	
+
 #### Benefits of Multiple Disks
 - Hold more data
 - Can be stored redundantly, increase reliability and availability
 - Can spread data, allowing parallel access, increase effective access time
-	
+
 #### Logical Volume Manager (LVM)
 
 
@@ -160,5 +160,3 @@ One disk keep one striping unit data and then the next disk keep next one string
 This is a review of file systems, and focus on S5FS, multiple disks, flash memory, crash Resiliency, naming and dirctories.
 
 <img src="https://farm8.staticflickr.com/7240/26387779154_5758d2a7f6_b.jpg" width="450" height="280" alt="file_system_summary">
-
-
