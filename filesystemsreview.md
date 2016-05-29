@@ -1,7 +1,8 @@
 title: File Systems
 tags: [OS, file systems]
 categories:
-	-Operating Systems
+	- Studying notes
+	- Operating Systems
 date: 2016-05-21
 ---
 
