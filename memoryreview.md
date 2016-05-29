@@ -1,7 +1,8 @@
 title: Memory Management
 tags: [OS, virtual memory]
 categories: 
-	-Operating Systems
+	- Studying notes
+	- Operating Systems
 date: 2016-05-21
 ---
 
