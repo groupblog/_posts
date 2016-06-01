@@ -1,6 +1,6 @@
-title: Introduction to Operation System
+title: Introduction to Operating System
 categories: 
-    - Studying notes
+    - Studying Notes
     - Operating System
 date: 2016-05-20
 ---

@@ -1,6 +1,6 @@
 title: Processor Management
 categories: 
-    - Studying notes
+    - Studying Notes
     - Operating System
 date: 2016-05-25
 ---

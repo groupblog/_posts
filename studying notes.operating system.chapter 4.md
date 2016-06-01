@@ -1,6 +1,6 @@
 title: Operating-System Design
 categories: 
-    - Studying notes
+    - Studying Notes
     - Operating System
 date: 2016-05-24
 ---
@@ -58,7 +58,7 @@ approach to set up device:
  * kernel still contain all device drivers
  * each device driver includes a probe routine
  * allow kernel image built for a number of similar installations not identical ones
- * boot time is long, impractival as supported devices too much
+ * boot time is long, impractical as supported devices too much
 * meta-drivers: 
  * meta-driver handle a particular kind of bus
  * installed into kernel
@@ -170,7 +170,7 @@ virtual machine is abstraction of hardware
 
 entire virtual machine in user mode of the real machine, VMM in privileged mode of the real machine
 
-VMM kepp track of whether virtual machine in virtual privileged mode(OS) or virtual user mode(application)
+VMM keep track of whether virtual machine in virtual privileged mode(OS) or virtual user mode(application)
 
 process in virtual machine is real processor:
 * instuctions are executed
@@ -178,9 +178,7 @@ process in virtual machine is real processor:
  * trap handler indexed by trap number in hardware-mandated jump table in virtual machine
  * VMM find address of virtual machine's trap handler and transfer control to it
 
-virtual machine contain every hardware components represented by data structures and code
-
-virtual machine not equal to software emulator
+virtual machine(not equal to software emulator) contain every hardware components represented by data structures and code
 
 sensitive instruction: an instruction will change something in the hardware/processor, must be privileged instruction
 

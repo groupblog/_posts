@@ -1,6 +1,6 @@
 title: File System
 categories: 
-    - Studying notes
+    - Studying Notes
     - Operating System
 date: 2016-05-27
 ---

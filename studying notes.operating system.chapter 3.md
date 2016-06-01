@@ -1,6 +1,6 @@
-title: Basic Concepts
+title: Basic Concepts of Operating System
 categories: 
-    - Studying notes
+    - Studying Notes
     - Operating System
 date: 2016-05-22
 ---
